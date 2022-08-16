@@ -2,8 +2,6 @@ collections:
   authors:
     output: true
 
-remote_theme: pages-themes/modernist@v0.2.0
-
 defaults:
   - scope:
       path: ""
@@ -24,4 +22,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
+theme:
+  - modernist
